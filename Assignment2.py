@@ -1,7 +1,6 @@
-
 marks = float(input("enter the marks"))
 
-if marks > 90:
+if marks > 90 and marks < 100:
     print ("Grade O")
 elif marks >= 80 and marks < 90:
     print ("Grade A+")
